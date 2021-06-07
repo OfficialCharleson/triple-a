@@ -1,0 +1,30 @@
+#login{
+    box-shadow: 2px 2px 5px white, -3px -3px 6px white;
+}
+
+ #success, #loading, #failure{
+    display:none;
+}
+
+#sensitive{
+    display: none;
+}
+
+hr{
+    color: white;
+    background-color: white;
+}
+
+.mobile{
+    display:none;
+}
+
+@media screen and (max-width:756px){
+    .desktop{
+        display:none;
+    }
+
+    .mobile{
+        display:block;
+    }
+}

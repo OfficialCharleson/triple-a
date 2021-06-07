@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>TRIPLE A TRADING | ABOUT US</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="../index.css"/> 
+        <link rel="stylesheet" href="index.css"/> 
+        <link rel="stylesheet" href="../assets/main.css"/> 
+        <script src="../index.js"></script>
+        
+
+
+        <!--All the CSS libraries in use on this page for different things like animations and fonts -->
+
+        <link rel="icon" type="image/x-icon" href="">
+        <link rel="stylesheet" href="../assets/fontawesome/css/font-awesome.min.css">
+        <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.min.css">
+        <script src="../assets/bootstrap/js/jquery-3.4.1.min.js"></script>
+        <script src="../assets/bootstrap/js/popper.min.js"></script>  
+        <script src="../assets/bootstrap/js/bootstrap.min.js"></script>                
+               
+        <link href="../assets/icofont/icofont.min.css" rel="stylesheet">
+        <link href="../assets/boxicons/css/boxicons.min.css" rel="stylesheet">
+        <link href="../assets/animate.css/animate.min.css" rel="stylesheet">
+        <link href="../assets/venobox/venobox.css" rel="stylesheet">
+        <link href="../assets/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+        <link href="../assets/aos/aos.css" rel="stylesheet">
+        <link href="../assets/remixicon/remixicon.css" rel="stylesheet">
+        <script src="index.js"></script>
+
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <script src="" async defer></script>
+
+        <!--Jumbotron Header for site title-->
+        <div class="jumbotron-fluid p-4 bg-primary my-0" data-aos="fade-down">
+            <div class="container text-light" data-aos="zoom-in" style="text-align: center;">
+                <h2>TRIPLE A TRADING</h2>
+            </div>
+        </div>
+
+
+        <!--Navigation for home page-->
+        <div class="container-fluid" data-aos="slide-up" style="background-color: #419afa;">
+            <ul class="nav nav-pills" data-aos="zoom-in">
+                
+                <li class="nav-item">
+                    <a class="nav-link mx-2" href="../">Home</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link active mx-2" href="../clients-area">Client Area</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link mx-2" href="">About Us</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link mx-2" href="../#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+
+        <!--CLient Area page content-->
+        <div class="content container-fluid my-0 p-4 ">
+           
+            <!--If user is not logged in this page shows. The default password and username is-->
+            <!--Username: triplea-->
+            <!--Password: tradeMaster-->
+            <div id="login" class="p-3" data-aos="fade-up">
+                <h3 style="text-align: center;">Please Login to continue!</h3>
+                <div class="container col-lg-6">
+                    <!--WHen this form is submitted, the index file handles the request-->
+                    <form id="login-form" data-aos-delay=100 data-aos="zoom-in" >
+                        <input id="username" class="form-control m-2" placeholder="Username" required/>
+                        <input id="password" type="password" class="form-control m-2" placeholder="Password"/>
+                        <input type="submit" class="btn btn-success btn-block m-2" value="Login"/>                        
+                    </form>
+                    <div class="post-form">                       
+                        <div id="loading" class="spinner-border text-danger"></div>
+                        <div id="success" class="container bg-success rounded p-2 m-2" style="text-align: center;">Login Successful!</div>
+                        <div id="failure" class="container bg-danger rounded p-2 m-2" style="text-align: center;">Wrong Credentials! Try Again...</div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="sensitive" class="p-3" data-aos="fade-up">
+                <h3 style="text-align: center;">Client Area</h3>
+
+                <div class="container-fluid mt-2">
+                    <ul class="nav nav-pills">
+                        <li class="nav-item">
+                            <a href="#article" data-toggle="pill" class="nav-link active">Articles</a>
+                        </li>
+    
+                        <li class="nav-item ml-2">
+                            <a href="#video" data-toggle="pill" class="nav-link ">Videos</a>
+                        </li>
+
+                        <li class="nav-item ml-2">
+                            <button class="btn btn-danger" id="logout">Logout</button>
+                        </li>
+    
+                    </ul>
+                </div>
+
+                <div class="container-fluid tab-content mx-0 px-0">
+                    
+                    <div class="tab-pane active mt-2 mx-0 px-0" id="article">
+                        <h3 style="text-align: center;">Trading Articles</h3>
+                        <hr/>
+                        <div class="container-fluid mx-0 px-0">
+                            <h4>Forex Trading Strategy</h4>
+                            <p>
+                                Foreign exchange is the process of changing one currency into another currency for
+                                a variety of reasons, usually for commerce, trading, or tourism. According to a 2019 
+                                triennial report from the Bank for International Settlements (a global bank for national central banks), 
+                                the daily trading volume for forex reached $6.6 trillion in April 2019.
+                                <footer class="blockquote-footer"><a href="https://www.investopedia.com/articles/forex/11/why-trade-forex.asp">Read more</a></footer>
+                            </p>
+                        </div>
+                        <hr/>
+                        <div class="container-fluid mx-0 px-0">
+                            <h4>Difference between Forex and Futures</h4>
+                            <p>
+                                The “spot” market is the cash market which means the current value (exchange rate) of where the 
+                                currency pair is trading at right now. The “Futures” market represents the perception of where that 
+                                same currency pair will be trading at on a specific date in the future. For example, if you are trading 
+                                the September 2021 EUR/USD, the price represents today’s perceived value of the future (September 2021) 
+                                exchange rate (as we are currently in May 2021). The further you go into the future month contracts, 
+                                the less liquid they are and the more of a premium you pay. Usually, the close month replicates the spot 
+                                value that you will see quoted on traditional Forex broker platforms.
+                                <footer class="blockquote-footer"><a href="https://www.dailyforex.com/forex-articles/2021/05/the-difference-between-forex-and-futures-revealed/162810">Read more</a></footer>
+                            </p>
+                        </div>
+                        <hr/>
+                        <div class="container-fluid mx-0 px-0">
+                            <h4>Forex Market Structure</h4>
+                            <p>
+                                For the sake of comparison, let us first examine a market that most folks are probably very familiar with: the stock market.
+                                By its very nature, the stock market tends to be very monopolistic. There is only one entity, one specialist that controls prices.
+
+All trades must go through this specialist. Because of this, prices can easily be altered to benefit the specialist and not traders.
+How does this happen?
+
+In the stock market, the specialist is forced to fulfill the order of its clients. Now, let’s say the number of sellers suddenly exceeds the number of buyers...
+                                <footer class="blockquote-footer"><a href="https://www.babypips.com/learn/forex/forex-market-structure">Read more</a></footer>
+                            </p>
+                        </div>
+                        <hr/>
+                    </div>
+
+                    <div class="tab-pane mt-2 mx-0 px-0" id="video">
+                        <h3 style="text-align: center;">Trading Videos</h3>
+                        <hr/>
+                        <div class="container-fluid mx-0 px-0">
+                            <h4>How to master forex market structure</h4>
+                            <div class="desktop mx-0 px-0" style="text-align: center;">
+                                <iframe width="640" height="360" src="https://www.youtube.com/embed/5PwhUuxg3_M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+
+                            <div class="mobile mx-0 px-0" style="text-align: center;">
+                                <iframe width="340" height="160" src="https://www.youtube.com/embed/5PwhUuxg3_M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                        <hr/>
+
+                        <div class="container-fluid mx-0 px-0">
+                            <h4>Trading for Beginners</h4>
+                            <div class="desktop mx-0 px-0" style="text-align: center;">
+                                <iframe width="600" height="315" src="https://www.youtube.com/embed/6Mu_UGGKe8o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+
+                            <div class="mobile mx-0 px-0" style="text-align: center;">
+                                <iframe width="300" height="115" src="https://www.youtube.com/embed/6Mu_UGGKe8o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                        <hr/>
+
+                        <div class="container-fluid mx-0 px-0">
+                            <h4>Trading Strategies</h4>
+                            <div class="desktop mx-0 px-0" style="text-align: center;">
+                                <iframe width="727" height="409" src="https://www.youtube.com/embed/eGb2wBfPVRA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+
+                            <div class="mobile mx-0 px-0" style="text-align: center;">
+                                <iframe width="327" height="140" src="https://www.youtube.com/embed/eGb2wBfPVRA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                        <hr/>
+
+
+                        
+                    </div>
+
+                </div>
+            </div>
+           
+        <!--Contact Section-->
+        <section id="contact">
+            <div class="container-fluid m-4">
+                <h3>Contact</h3>
+                You can reach me on:<br/>
+                Email <a href="mailto:tadedeji69@gmail.com"><i class="fa fa-at"></i> : tadedeji69@gmail.com</a><br/>
+                Tel <a href="tel:08159573767"><i class="fa fa-phone"></i> : 08159573767</a><br/>
+                Whatsapp <a href="https://wa.me/09024603728"><i class="fa fa-whatsapp" style="color:#0FC244"></i> : 09024603728</a>
+
+
+            </div>
+        </section>
+
+
+
+
+
+        <a href="#" class="back-to-top rounded"><i class="icofont-simple-up"></i></a>
+
+
+
+
+
+
+
+
+        <!--All JS files used in this page-->
+        
+        <script src="../assets/jquery-sticky/jquery.sticky.js"></script>
+        <script src="../assets/isotope-layout/isotope.pkgd.min.js"></script>
+        <script src="../assets/venobox/venobox.min.js"></script>
+        <script src="../assets/waypoints/jquery.waypoints.min.js"></script>
+        <script src="../assets/owl.carousel/owl.carousel.min.js"></script>
+        <script src="../assets/aos/aos.js"></script>
+        
+        <script src="../assets/main.js"></script>
+    </body>
+</html>

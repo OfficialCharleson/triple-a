@@ -1,0 +1,64 @@
+body{
+    overflow-x: hidden;
+}
+
+.content{
+    background-color: black;
+    color:white;
+}
+
+.nav-pills .nav-link.active {
+    color:white;
+    background-color: #f12f2f !important;
+}
+
+.nav-pills .nav-link:hover {
+    color:white;
+    background-color: #ff0000 !important;
+}
+
+.nav-pills .nav-link {
+    color:white;
+}
+
+#introVid{
+    width:60%;
+}
+
+#contact{
+    background-color: black;
+    color:white;
+    text-align: center;
+}
+
+#contact a{
+    color:#f12f2f;
+    text-decoration: none;
+}
+
+#contact a:hover{
+    color:#ff0000;
+}
+  
+
+#about_us_image{
+    width:70%;
+}
+
+@media screen and (max-width:1350px){
+    #introVid{
+        width:70%;
+    }
+}
+
+@media screen and (max-width:999px){
+    #introVid{
+        width:80%;
+    }
+}
+
+@media screen and (max-width:756px){
+    #about_us_image{
+        width:100%;
+    }
+}
